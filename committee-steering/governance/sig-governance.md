@@ -43,7 +43,7 @@ The process for setting up a SIG or Working Group (WG) is listed in the
 
 Within this section "Lead" refers to someone who is a member of the union
  of a Chair, Tech Lead or Subproject Owner role. There is no one lead to any
- Kubernetes community group. Leads have specific decision making power over some
+ Kubernetes community group. Leads have specific decision-making power over some
  part of a group and thus additional accountability. Each role is detailed below.  
 
 - Initial roles are defined at the founding of the SIG or Subproject as part
@@ -51,10 +51,10 @@ of the acceptance of that SIG or Subproject.
 
 #### Activity Expectations  
 
-- Leads *SHOULD* remain active and responsive in their Roles.
-- Leads taking an extended leave of 1 or more months *SHOULD* coordinate with other leads to ensure the role is adequately staffed during the leave.
-- Leads going on leave for 1-3 months *MAY* work with other Leads to identify a temporary replacement.
-- Leads of a role *SHOULD* remove any other leads or roles that have not communicated a leave of absence and either cannot be reached for more than 1 month or are not fulfilling their documented responsibilities for more than 1 month.
+- Leads *MUST* remain active and responsive in their roles, aside from times when personal/extenuating circumstances prevent it.
+- Leads taking an extended leave of one or more months *MUST* coordinate with other leads to ensure the role is adequately staffed during the leave.
+- Leads going on leave for 1-3 months *SHOULD* work with other Leads to identify a temporary replacement.
+- Leads *SHOULD* remove any other leads or roles that have not communicated a leave of absence and either cannot be reached for more than one month or are not fulfilling their documented responsibilities for more than one month.
   - This may be done through a [super-majority] vote of Leads. If there are not enough *active* Leads, then a [super-majority] vote between Chairs, Tech Leads and Subproject Owners may decide the removal of the Lead.
 
 #### Requirements
@@ -63,19 +63,20 @@ of the acceptance of that SIG or Subproject.
 be eligible to hold a leadership role within a SIG.
 - SIGs *MAY* prefer various levels of domain knowledge depending on the
 role. This should be documented.  
-- People management interests - there's a lot of us!
+- Leads *MUST* support onboarding new contributors to grow the
+community and mitigate risk.
 
 #### Escalations
 
-- Lead membership disagreements *MAY* be escalated to the SIG Chairs. SIG Chair
+- Lead membership disagreements *SHOULD* be escalated to the SIG Chairs. SIG Chair
 membership disagreements may be escalated to the Steering Committee.
 
 #### On-boarding and Off-boarding Leads
 
 - Leads *MAY* decide to step down at anytime and propose a replacement.  Use
 lazy consensus amongst other Leads with fallback on majority vote to accept
-proposal.  The candidate *SHOULD* be supported by a majority of SIG contributors
- or the Subproject contributors (as applicable).
+the proposal. The new Lead candidate *SHOULD* be supported by a majority of 
+SIG contributors or the Subproject contributors (as applicable).
 - Leads *MAY* select additional leads through a [super-majority] vote
 amongst leads. This *SHOULD* be supported by a majority of SIG contributors or
 Subproject contributors (as applicable).
@@ -86,48 +87,185 @@ Subproject contributors (as applicable).
 - Membership tracked in [sigs.yaml]  
   - If no tech lead role is present, Chair assumes responsibilities from [#tech-lead] section.
   
-  In addition, run operations and processes governing the SIG:
+The SIG Chair is responsible for driving the *WHY*: the vision and development 
+priorities—and making sure the SIG fulfills its operations- and process-related
+obligations.
 
-- *SHOULD* define how priorities and commitments are managed and delegate to other leads as needed
-- *SHOULD* drive charter changes (including creation) to get community buy-in but *MAY* delegate content creation to SIG contributors
-- *SHOULD* identify, track, and maintain the SIGs enhancements for current
-  release and serve as point of contact for the release team, but *MAY* delegate
-   to another Lead to fulfill these responsibilities
-  - *MAY* delegate the creation of a SIG roadmap to other Leads
-  - *MUST* organize a main group meeting and make sure [sigs.yaml] is up to date
-  including subprojects and their meeting information but *SHOULD* delegate the
-  need for subproject meetings to subproject owners  
-  - *SHOULD* facilitate meetings but *MAY* delegate to other Leads or future
-  chairs/chairs in training
-  - *MUST* ensure there is a maintained CONTRIBUTING.md document in the
-  appropriate SIG folder if the contributor experience or on-boarding knowledge
-  is different than in the general [contributor guide]. *MAY* delegate to
-  contributors to create or update.
-  - *MUST* organize KubeCon/CloudNativeCon Intros and Deep Dives with CNCF Event
-   staff and approve presented content but *MAY* delegate to other contributors
-   to create material and present  
-  - *MUST* ensure meetings are recorded and made available
-  - *MUST* report activity with the community via k-dev mailing list at least
-  once a quarter (slides, video from kubecon, etc)
-  - *MUST* coordinate sponsored working group updates to the SIG and the wider
-  community  
-- *MUST* coordinate communication and be a connector with other community
- groups like SIGs and the Steering Committee but *MAY* delegate the actual
- communication and creation of content to other contributors where
- appropriate  
-- *MUST* provide updates through the [monthly community meeting]
-- *MUST* present yearly [annual report] for the group but *SHOULD* get help with
+Developing the *WHY* remains a group effort in collaboration with other Leads and SIG 
+contributors, but SIG Chairs take the lead in optimizing value and guiding the group 
+toward outcomes. 
+
+**Delivery Vision and Strategy**: 
+- *MUST* lead their SIG to decide upon the top-priority KEPs to be delivered 
+during an upcoming release cycle; *SHOULD* work out a lightweight process 
+with other SIG leads
+- *MUST* ensure that, when a KEP involves multiple SIGs, alignment and 
+coordination with those other SIGs is occurring. *MAY* delegate this to other 
+leads. 
+- *MUST* ensure their KEPs for the upcoming cycle are communicated to the 
+Release Team in a timely way; *MAY* delegate oversight to other SIG leads
+- *MUST* ensure that the SIG’s enhancements for the current release are tracked; 
+*MAY* delegate this to other Leads
+- *SHOULD* communicate the reasoning behind their prioritization decisions 
+regarding KEPs and other increments of work
+- *SHOULD* serve as point of contact for the release team regarding enhancements the 
+current release, but *MAY* delegate to another Lead to fulfill these responsibilities
+- *SHOULD* lead their SIG in creating a roadmap or strategy document, and *MAY* 
+delegate this to other Leads
+- *SHOULD* publish the roadmap or strategy document for users and contributors 
+to discover
+- *SHOULD* ensure their SIG’s roadmap is discussed at regular meetings and invite
+ feedback from contributors
+- *SHOULD* drive backlog refinement activities to ensure the highest-value work is
+ prioritized; *SHOULD* coordinate this with other Leads
+- *SHOULD* define how priorities and commitments are managed and delegate to other 
+leads as needed
+- *SHOULD* talk to users/customers to collect insights for the SIG to act on through
+ KEPs and other development
+
+**Operations and Processes**:
+- *MUST* present yearly [annual report] for the group but *SHOULD* get help with 
 curation from other SIG participants
+- *MUST* ensure that their SIG has a clear path/ladder for contributors to rise to 
+reviewer and approver, but *MAY* delegate the process to other leads and engaged 
+contributors
+- *MUST* report activity with the community via k-dev mailing list at least once 
+a quarter (slides, video from kubecon, etc)
+ - *MUST* organize KubeCon/CloudNativeCon Intros and Deep Dives with CNCF Event staff 
+and approve presented content but *MAY* delegate to other contributors to create 
+material and present  
+- *MUST* coordinate sponsored working group updates to the SIG and the wider Community; 
+*MAY* delegate this role to other Leads
+- *MUST* coordinate communication and be a connector with other community groups like 
+SIGs and the Steering Committee but *MAY* delegate the actual communication and creation 
+of content to other contributors where appropriate  
+- *MUST* ensure there is a maintained CONTRIBUTING.md document in the appropriate SIG 
+folder if the contributor experience or on-boarding knowledge is different than in the 
+general [contributor guide]. *MAY* delegate to contributors to create or update.
+- *MUST* ensure meetings are recorded and made available. *MAY* delegate to contributors 
+to create or update.
+- *MUST* organize a main group meeting and make sure [sigs.yaml] is up to date, including 
+subprojects and their meeting information. *MAY* delegate to contributors to create or update.
+- *SHOULD* delegate the need for subproject meetings to subproject owners  
+- *SHOULD* facilitate meetings but *MAY* delegate to other Leads or future chairs/chairs-in-training
+- *SHOULD* drive charter changes (including creation) to get community buy-in but *MAY* delegate 
+content creation to SIG contributors.
+
 
 ### Tech Lead
 
-- *Optional Role*: SIG Technical Leads
-  - Establish new subprojects
-  - Decommission existing subprojects
-  - Resolve X-Subproject technical issues and decisions
-  - Number: 2-3
+  - Number: 1-3
   - Membership tracked in [sigs.yaml]
   - Role description in [technical-lead.md]
+
+The SIG Technical Lead is responsible for driving the *HOW*: the technical implementation 
+that supports development. This is an *optional* role.
+
+Developing the *HOW* remains a group effort in collaboration with SIG Chair Leads and 
+SIG contributors, but this role takes the lead in driving collaboration and discussion 
+about implementation.
+
+- *MUST* lead the SIG in creating a clear and consistent technical vision, and *SHOULD* 
+publish artefacts describing this vision for the benefit of users, contributors, and 
+other SIGs 
+- *MUST* ensure that other members of the SIG—especially leads, approvers, and reviewers—
+can access information/artefacts about the technical vision, and communicate how best 
+to challenge and raise questions about it
+- *MUST* track the technical quality of SIG deliverables if a roadmap exists
+- *MUST* provide senior leadership to the SIG’s short-term and long-term technical vision
+-*MUST* maintain a  wide-range understanding of the SIGs work in correlation to the 
+whole community. Establishing future plans by continuously working on the technical 
+vision of the SIG.
+- *MUST* ensure that the team utilizes appropriate engineering practices which apply 
+to the whole Kubernetes organization, such as using Prow for Continuous Integration 
+(CI) practices
+- *MUST* continuously evaluate technical challenges within the SIG and work towards 
+removing them as part of the vision
+- *MUST* take changing environments into account to adapt the technical vision if needed
+- *MUST* align with the SIG Chairs and other leads on deciding the top-priority KEPs to 
+be delivered during an upcoming release cycle; *SHOULD* inform and influence those 
+decisions as much as possible
+- *MUST* support SIG Chair in driving alignment and coordination among interdependent 
+SIGs; *SHOULD* lead these alignment and coordination efforts as time allows
+- *MUST* be involved in the SIG’s source code base to raise needs and take decisions
+- *MUST* actively identify risk and maintain a high level of trust with other members 
+of the SIG
+- *MUST* mentor team members around solving technical tasks; *SHOULD* look for delegation
+ opportunities
+- *SHOULD* support the SIG Chair as a secondary point of contact for the release team 
+regarding enhancements the current release
+- *SHOULD* support SIG Chair in identifying, tracking, and maintaining the SIG’s 
+enhancements for the current release
+- *SHOULD* guide subprojects to resolve technical issues and decisions
+- *SHOULD* watch out for “good first issues” and “help wanted” items to delegate work to 
+contributors; *MAY* delegate this to other leads or contributors
+- *SHOULD* oversee decommission of subprojects that are no longer wanted, or delegate 
+to contributors
+- *MAY* Establish new subprojects
+- *MAY* talk to users/customers to collect insights for the SIG to act on through KEPs
+ and other development
+
+### Program Manager
+
+  - Number: 1-2
+  - Membership tracked in [sigs.yaml]
+  - Role description in [technical-lead.md]
+  -
+The Program Manager is responsible for driving delivery effectiveness—i.e. making sure 
+things get done efficiently, software is shipped, workflows are continuously improved. 
+Like the technical lead, this is an *optional* role.
+
+SIG Release created an official program manager role in summer 2020 in order to accelerate
+ process improvements while SIG Chairs and Tech Leads concentrated on vision and technical 
+implementation. 
+
+- *MUST* receive the same permissions as other SIG leads
+- *MUST* listen and observe the SIG to devise process improvements based on expressed needs
+- *MUST* prioritize processes that are asynchronous and lightweight—ideally increasing 
+transparency and reducing administrative overhead or confusion
+- *MUST* propose solutions based on the specific needs of the group, and not impose theory 
+or frameworks prescriptively or in a vacuum
+- *MUST* collaborate with other SIG leadership as early and often as possible when ideating/
+developing new processes or suggesting improvements, to achieve buy-in and build trust
+-*MUST* guide the SIG to break down complexity into smaller increments of value
+- *MUST* drive process development and improvements related to SIG communications, delegation,
+ collaboration, and alignment with other SIGs
+- *MUST* continuously surface process gaps and weaknesses that introduce risk, create waste,
+ duplicate efforts, or exclude contributors, and raise these issues to other SIG Leads for
+ discussion and remediation
+- *MUST* advocate for processes aimed at driving delivery effectiveness, such as issue 
+triage, roadmapping/North Star vision creation, backlog refinement, and KEP planning; 
+*SHOULD* delegate setup and execution to other SIG leads and contributors
+-*MUST* coach/mentor other SIG leads and contributors to facilitate processes, meetings, 
+and activities that drive achievement of delivery outcomes, to reduce bottlenecks and risk
+-*MUST* guide the SIG to follow established practices in Kubernetes, from adherence to 
+release deadlines to enforcing the Code of Conduct; *SHOULD* delegate follow-up to other 
+Leads and contributors
+-*MUST* advise the SIG on tooling that supports delivery effectiveness and smooth workflows,
+ such as GitHub project boards and creative use of GitHub Issues to track work; *SHOULD*
+ delegate setup to contributors
+- *MUST* drive compromise to mitigate conflict and guide the group to focus on outcomes
+- *MUST* encourage the SIG to prioritise contributor experience in order to drive delegation
+ of work and reduce risk; *SHOULD* encourage related activities such as creating “career 
+ladders” and designing work packages that engaged contributors can drive via small teams
+- *SHOULD* propose improvements to cross-SIG coordination and communication
+- *SHOULD* advise the SIG Chair and Technical Leads on prioritization, roadmapping, and 
+strategic development, adopting a neutral and “if asked” ap 
+- *SHOULD* support the SIG Chair in delegating operational tasks to contributors and other
+ leads safely and responsibly
+- *SHOULD* advise the SIG Chair in organizing the process related to prioritizing, deciding
+ upon, and communicating the top-priority KEPs for the release cycle
+- *SHOULD* advise the SIG Technical Leads (if relevant) in driving processes and communications
+ related to developing and communicating the technical vision
+- *SHOULD* be involved in the day-to-day workings of the SIG—attending (or in some cases 
+hosting) meetings, following discussions on Slack, learning about the priorities and technical
+ responsibilities and plans for the group
+- *SHOULD* drive periodic evaluation of established processes to ensure they’re working, by
+ asking the group for feedback and measuring impact with metrics
+- *SHOULD* guiding their SIG to adopt prioritisation frameworks that support delivery of 
+the highest-value, highest-impact work 
+- *SHOULD* design lightweight communication mechanisms that reinforce timely responsiveness
+ to deadlines and external requests, such as monthly drumbeats
 
 ### Subproject Owner
 
