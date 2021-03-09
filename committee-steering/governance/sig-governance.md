@@ -39,6 +39,8 @@ The process for setting up a SIG or Working Group (WG) is listed in the
 
 ## Roles
 
+<img src="Roles%20diagram.png" height="50%" width="50%">
+
 ### Notes on Roles
 
 Within this section "Lead" refers to someone who is a member of the union
@@ -209,7 +211,7 @@ to contributors
 
   - Number: 1-2
   - Membership tracked in [sigs.yaml]
-  - Role description in [technical-lead.md]
+  - Role description in [program-manager.md]
   -
 The Program Manager is responsible for driving delivery effectiveness—i.e. making sure 
 things get done efficiently, software is shipped, workflows are continuously improved. 
@@ -384,3 +386,4 @@ Issues impacting multiple subprojects in the SIG should be resolved by either:
 [monthly community meeting]: /events/community-meeting.md
 [inclusive speaker training course]: https://training.linuxfoundation.org/training/inclusive-speaker-orientation/
 [technical-lead.md]: /contributors/chairs-and-techleads/technical-lead.md
+[program-manager.md]: /contributors/chairs-and-techleads/program-manager.md
