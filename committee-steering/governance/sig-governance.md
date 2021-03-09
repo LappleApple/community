@@ -87,7 +87,7 @@ Subproject contributors (as applicable).
 
 - Number: 2-3
 - Membership tracked in [sigs.yaml]  
-  - If no tech lead role is present, Chair assumes responsibilities from [#tech-lead] section.
+  - If no tech lead or program manager role are present, Chair assumes responsibilities from [#tech-lead] and [#program-manager] sections.
   
 The SIG Chair is responsible for driving the *WHY*: the vision and development 
 priorities—and making sure the SIG fulfills its operations- and process-related
@@ -215,11 +215,8 @@ to contributors
   
 The Program Manager is responsible for driving delivery effectiveness—i.e. making sure 
 things get done efficiently, software is shipped, workflows are continuously improved. 
-Like the technical lead, this is an *optional* role.
 
-SIG Release created an official program manager role in summer 2020 in order to accelerate
- process improvements while SIG Chairs and Tech Leads concentrated on vision and technical 
-implementation. 
+Like the technical lead, this is an *optional* role. 
 
 - *MUST* receive the same permissions as other SIG leads
 - *MUST* listen and observe the SIG to devise process improvements based on expressed needs
