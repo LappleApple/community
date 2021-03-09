@@ -133,7 +133,7 @@ reviewer and approver, but *MAY* delegate the process to other leads and engaged
 contributors
 - *MUST* report activity with the community via k-dev mailing list at least once 
 a quarter (slides, video from kubecon, etc)
- - *MUST* organize KubeCon/CloudNativeCon Intros and Deep Dives with CNCF Event staff 
+- *MUST* organize KubeCon/CloudNativeCon Intros and Deep Dives with CNCF Event staff 
 and approve presented content but *MAY* delegate to other contributors to create 
 material and present  
 - *MUST* coordinate sponsored working group updates to the SIG and the wider Community; 
@@ -175,7 +175,7 @@ can access information/artefacts about the technical vision, and communicate how
 to challenge and raise questions about it
 - *MUST* track the technical quality of SIG deliverables if a roadmap exists
 - *MUST* provide senior leadership to the SIG’s short-term and long-term technical vision
--*MUST* maintain a  wide-range understanding of the SIGs work in correlation to the 
+- *MUST* maintain a  wide-range understanding of the SIGs work in correlation to the 
 whole community. Establishing future plans by continuously working on the technical 
 vision of the SIG.
 - *MUST* ensure that the team utilizes appropriate engineering practices which apply 
@@ -229,7 +229,7 @@ transparency and reducing administrative overhead or confusion
 or frameworks prescriptively or in a vacuum
 - *MUST* collaborate with other SIG leadership as early and often as possible when ideating/
 developing new processes or suggesting improvements, to achieve buy-in and build trust
--*MUST* guide the SIG to break down complexity into smaller increments of value
+- *MUST* guide the SIG to break down complexity into smaller increments of value
 - *MUST* drive process development and improvements related to SIG communications, delegation,
  collaboration, and alignment with other SIGs
 - *MUST* continuously surface process gaps and weaknesses that introduce risk, create waste,
@@ -238,12 +238,12 @@ developing new processes or suggesting improvements, to achieve buy-in and build
 - *MUST* advocate for processes aimed at driving delivery effectiveness, such as issue 
 triage, roadmapping/North Star vision creation, backlog refinement, and KEP planning; 
 *SHOULD* delegate setup and execution to other SIG leads and contributors
--*MUST* coach/mentor other SIG leads and contributors to facilitate processes, meetings, 
+- *MUST* coach/mentor other SIG leads and contributors to facilitate processes, meetings, 
 and activities that drive achievement of delivery outcomes, to reduce bottlenecks and risk
--*MUST* guide the SIG to follow established practices in Kubernetes, from adherence to 
+- *MUST* guide the SIG to follow established practices in Kubernetes, from adherence to 
 release deadlines to enforcing the Code of Conduct; *SHOULD* delegate follow-up to other 
 Leads and contributors
--*MUST* advise the SIG on tooling that supports delivery effectiveness and smooth workflows,
+- *MUST* advise the SIG on tooling that supports delivery effectiveness and smooth workflows,
  such as GitHub project boards and creative use of GitHub Issues to track work; *SHOULD*
  delegate setup to contributors
 - *MUST* drive compromise to mitigate conflict and guide the group to focus on outcomes
