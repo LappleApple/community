@@ -212,7 +212,7 @@ to contributors
   - Number: 1-2
   - Membership tracked in [sigs.yaml]
   - Role description in [program-manager.md]
-  -
+  
 The Program Manager is responsible for driving delivery effectiveness—i.e. making sure 
 things get done efficiently, software is shipped, workflows are continuously improved. 
 Like the technical lead, this is an *optional* role.
